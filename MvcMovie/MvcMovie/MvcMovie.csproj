@@ -177,6 +177,10 @@
     <Compile Include="Migrations\201503100229194_DataAnnotations.Designer.cs">
       <DependentUpon>201503100229194_DataAnnotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201503100258537_DataAnnotations1.cs" />
+    <Compile Include="Migrations\201503100258537_DataAnnotations1.Designer.cs">
+      <DependentUpon>201503100258537_DataAnnotations1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -616,6 +620,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201503100229194_DataAnnotations.resx">
       <DependentUpon>201503100229194_DataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503100258537_DataAnnotations1.resx">
+      <DependentUpon>201503100258537_DataAnnotations1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
